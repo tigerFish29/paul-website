@@ -253,7 +253,73 @@ caption {
     color: rgb(1, 12, 12);
     letter-spacing: normal;
 }
+  
 
+
+/*
+   media queries 
+
+
+*/
+
+@media screen and (max-width: 600px) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        margin-right: -111px;
+    }
+
+    td {
+        display: flex;
+    }
+
+    .about-para {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 50rem;
+        height: auto;    
+        
+    }
+
+    .statement {
+        
+        width: 70%;
+        text-align: center;
+        word-wrap: break-word;
+        color: rgb(1, 12, 12);
+        margin-left: -1px;
+        padding-left: 20px;
+        font-size: -2px;
+        overflow-y: hidden;     
+    }
+
+    .utility {
+        width: 70%;
+        text-align: center;
+        word-wrap: break-word;
+        color: rgb(1, 12, 12);
+        margin-left: -1px;
+        padding-left: 20px;
+        font-size: -2px;
+        overflow-y: hidden; 
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+    h4 {
+        font-size: 2rem;
+    }
+
+    .mobile {
+        border-top: 1px solid rgb(1, 12, 12);
+       border-bottom: 1px solid rgb(1, 12, 12)
+    }
+    
+  
+}
 
 
 
