@@ -253,7 +253,38 @@ caption {
     color: rgb(1, 12, 12);
     letter-spacing: normal;
 }
+  
 
+
+/*
+   media queries 
+
+
+*/
+
+@media screen and (max-width: 600px) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        margin-right: -111px;
+    }
+
+    td {
+        display: flex;
+    }
+
+    .about-para {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100rem;
+        height: auto;
+        text-align: center;
+        margin-left: -150px;
+    }
+
+}
 
 
 
