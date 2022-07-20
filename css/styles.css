@@ -119,6 +119,83 @@ h1 {
     text-shadow: black;
 }
 
+.About-Me {
+    font-family: 'Cormorant SC', serif;
+    font-size: 5rem;
+    color: rgb(1, 12, 12);
+    letter-spacing: normal;
+    text-shadow: black;
+    display: flex;
+    justify-content: center;
+}
+
+.about-para {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(1, 12, 12);
+    letter-spacing: normal;
+    font-size: 1.5rem;
+    display: block;
+    max-width: 150rem;
+    height: 800px;
+    margin-left: 20rem;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-top: 10px;
+    
+
+}
+
+.statement {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(1, 12, 12);
+    margin-bottom: 20px;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.9rem;
+
+}
+
+.contact, a:link, a:visited {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: rgb(1, 12, 12);
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1.2rem;
+}
+
+h3 {
+    font-family: 'Cormorant SC', serif;
+    font-size: 5rem;
+    color: rgb(1, 12, 12);
+    letter-spacing: normal;
+    text-shadow: black;
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    font-family: 'Cormorant SC', serif;
+    color: rgb(1, 12, 12);
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+
+.utility {
+
+    color: rgb(1, 12, 12);
+    margin-bottom: 20px;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.9rem;
+   
+}
+
 .paul {
     display: flex;
     justify-content: center;
@@ -133,6 +210,10 @@ h1 {
     justify-content: center;
     min-height: 50rem;
 
+}
+
+button {
+    border-radius: 2px;
 }
 
 table {
